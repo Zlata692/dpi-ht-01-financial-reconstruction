@@ -1,0 +1,1 @@
+Local-only static review application. Serve this folder with any static web server. No publishing, GitHub, Vercel, or external service was used. Replace the student placeholder in submission.json before personal submission.
