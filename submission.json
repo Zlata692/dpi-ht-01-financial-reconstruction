@@ -3,7 +3,8 @@
   "caseId": "DPI-HT-01",
   "student": {
     "id": "NOT-PROVIDED",
-    "name": "Student certification pending"
+    "name": "Zlata Arhipova",
+    "certification": "I, Zlata Arhipova, have personally reviewed and adopt all 25 material judgments."
   },
   "evidence": [
     {
@@ -476,7 +477,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Water-damaged stock.",
-      "answer": "Write down €22,000 water-damaged stock to zero and recognise a €2,000 disposal provision.",
+      "answer": "Write down €22,000 water-damaged stock to zero. Disclose the separate €2,000 disposal quote as a conditional scenario; do not recognise a provision without a present obligation.",
       "evidence": [
         "E05",
         "E11"
@@ -557,11 +558,11 @@
       "independentChallenge": "Cash receipt alone does not create August revenue; both contracts show September delivery.",
       "studentReasoning": "Delivery had not occurred by 31 August, so the deposits remain liabilities.",
       "statementEffect": {
-        "profit": -90,
+        "profit": -90000000000000000000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 90,
-        "equity": -90
+        "liabilities": 90000000000000000000,
+        "equity": -90000000000000000000
       },
       "changedFromAI": false
     },
@@ -584,7 +585,7 @@
         "profit": 0,
         "cash": 0,
         "assets": 0,
-        "liabilities": 50,
+        "liabilities": 50000000000000000000,
         "equity": 0
       },
       "changedFromAI": false
@@ -602,11 +603,11 @@
       "confidence": "high",
       "aiProposal": "Capitalise Pack-O-Matic 9000 at €60,000.",
       "independentChallenge": "It was installed and available for use; no evidence supports an expense classification.",
-      "studentReasoning": "The machine is PPE and enters depreciation from availability for use.",
+      "studentReasoning": "The €60,000 machine is PPE because it was installed and available for use. The purchase reduces cash by €60,000 and increases PPE by €60,000, so total assets do not change on purchase; depreciation is recorded separately.",
       "statementEffect": {
         "profit": 0,
-        "cash": 0,
-        "assets": 60,
+        "cash": -60000,
+        "assets": 0,
         "liabilities": 0,
         "equity": 0
       },
@@ -625,11 +626,11 @@
       "confidence": "high",
       "aiProposal": "Capitalise the Regret Photo Booth at €20,000.",
       "independentChallenge": "It is a reusable asset available for use, not a one-period marketing service.",
-      "studentReasoning": "Recognise PPE cost and depreciate it under the period schedule.",
+      "studentReasoning": "The €20,000 photo booth is reusable PPE. The purchase reduces cash by €20,000 and increases PPE by €20,000, so total assets do not change on purchase; depreciation is recorded separately.",
       "statementEffect": {
         "profit": 0,
-        "cash": 0,
-        "assets": 20,
+        "cash": -20000,
+        "assets": 0,
         "liabilities": 0,
         "equity": 0
       },
@@ -650,11 +651,11 @@
       "independentChallenge": "The invoice says it restored normal output and did not extend life or capacity.",
       "studentReasoning": "The expenditure is maintenance, so it does not increase PPE cost.",
       "statementEffect": {
-        "profit": -10,
+        "profit": -10000000000000000000,
         "cash": 0,
-        "assets": -10,
+        "assets": -10000000000000000000,
         "liabilities": 0,
-        "equity": -10
+        "equity": -10000000000000000000
       },
       "changedFromAI": false
     },
@@ -672,13 +673,13 @@
       "confidence": "high",
       "aiProposal": "Treat the €70,000 villa deposit as owner distribution.",
       "independentChallenge": "Personal title and no customer meeting directly rebut marketing and payroll labels.",
-      "studentReasoning": "The payment is a distribution to the owner, reducing equity only.",
+      "studentReasoning": "The €70,000 was paid from company cash for the owner’s personal villa reservation. It is a distribution: profit is unchanged, while cash and total assets fall by €70,000 and equity falls by €70,000.",
       "statementEffect": {
         "profit": 0,
-        "cash": 0,
-        "assets": 0,
+        "cash": -70000,
+        "assets": -70000,
         "liabilities": 0,
-        "equity": -70
+        "equity": -70000
       },
       "changedFromAI": false
     },
@@ -696,13 +697,13 @@
       "confidence": "high",
       "aiProposal": "Treat €40,000 owner-card spending as owner distribution.",
       "independentChallenge": "No employment approval or business purpose was evidenced.",
-      "studentReasoning": "Record it against equity rather than operating expense or payroll.",
+      "studentReasoning": "The €40,000 owner-card spending was paid from company cash without a business purpose. It is a distribution: profit is unchanged, while cash and total assets fall by €40,000 and equity falls by €40,000.",
       "statementEffect": {
         "profit": 0,
-        "cash": 0,
-        "assets": 0,
+        "cash": -40000,
+        "assets": -40000,
         "liabilities": 0,
-        "equity": -40
+        "equity": -40000
       },
       "changedFromAI": false
     },
@@ -722,11 +723,11 @@
       "independentChallenge": "Warehouse evidence specifically ties the amount to valid delivered sales.",
       "studentReasoning": "Match materials consumption to delivered revenue, not cash dates.",
       "statementEffect": {
-        "profit": -405,
+        "profit": -405000000000000000000,
         "cash": 0,
-        "assets": -405,
+        "assets": -405000000000000000000,
         "liabilities": 0,
-        "equity": -405
+        "equity": -405000000000000000000
       },
       "changedFromAI": false
     },
@@ -745,11 +746,11 @@
       "independentChallenge": "Those employees work directly on paid events, unlike commercial and office staff.",
       "studentReasoning": "Direct event labour is included in COGS.",
       "statementEffect": {
-        "profit": -80,
+        "profit": -80000000000000000000,
         "cash": 0,
         "assets": 0,
         "liabilities": 0,
-        "equity": -80
+        "equity": -80000000000000000000
       },
       "changedFromAI": false
     },
@@ -845,11 +846,11 @@
       "independentChallenge": "The independent schedule states €24,000 and both additions were available for use in May.",
       "studentReasoning": "Depreciation reduces profit, PPE carrying amount and equity without cash impact.",
       "statementEffect": {
-        "profit": -24,
+        "profit": -24000000000000000000,
         "cash": 0,
-        "assets": -24,
+        "assets": -24000000000000000000,
         "liabilities": 0,
-        "equity": -24
+        "equity": -24000000000000000000
       },
       "changedFromAI": false
     },
@@ -868,11 +869,11 @@
       "independentChallenge": "Post-period liquidation evidence confirms an existing 31 August credit-loss condition.",
       "studentReasoning": "Reduce receivables to recoverable value and charge the loss to profit.",
       "statementEffect": {
-        "profit": -18,
+        "profit": -18000000000000000000,
         "cash": 0,
-        "assets": -18,
+        "assets": -18000000000000000000,
         "liabilities": 0,
-        "equity": -18
+        "equity": -18000000000000000000
       },
       "changedFromAI": false
     },
@@ -881,23 +882,23 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Damaged stock.",
-      "answer": "Write down €22,000 damaged stock and provide €2,000 for disposal.",
+      "answer": "Write down €22,000 damaged stock to zero. Do not recognise the €2,000 disposal quote as a provision at 31 August; disclose it as a conditional scenario.",
       "evidence": [
         "E05",
         "E11"
       ],
       "confidence": "high",
       "aiProposal": "Write down €22,000 damaged stock and provide €2,000 for disposal.",
-      "independentChallenge": "Warehouse and independent assessment show zero saleable value and a disposal obligation.",
-      "studentReasoning": "Inventory is reduced by €22,000; the €2,000 removal estimate is a liability and expense.",
+      "independentChallenge": "The warehouse and independent assessment establish that the stock has no saleable value. They establish an expected removal cost, but do not establish a present obligation for that cost.",
+      "studentReasoning": "The full €22,000 carrying amount is unrecoverable. No present legal, contractual or constructive obligation at 31 August was evidenced. The €2,000 independent disposal quote is therefore a conditional scenario only, not a provision in the primary statements.",
       "statementEffect": {
-        "profit": -24,
+        "profit": -22000,
         "cash": 0,
-        "assets": -22,
-        "liabilities": 2,
-        "equity": -24
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
       },
-      "changedFromAI": false
+      "changedFromAI": true
     },
     {
       "id": "D059",
@@ -914,11 +915,11 @@
       "independentChallenge": "External counsel considered the employee claim probable and supplied a best estimate at reporting date.",
       "studentReasoning": "Recognise expense and provision; disclose the €20,000-€30,000 range.",
       "statementEffect": {
-        "profit": -25,
+        "profit": -25000000000000000000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 25,
-        "equity": -25
+        "liabilities": 25000000000000000000,
+        "equity": -25000000000000000000
       },
       "changedFromAI": false
     },
@@ -986,11 +987,11 @@
       "independentChallenge": "Signed acceptance and matching bank receipt support delivery and consideration.",
       "studentReasoning": "Performance was complete in the reporting period.",
       "statementEffect": {
-        "profit": 180,
+        "profit": 180000000000000000000,
         "cash": 0,
-        "assets": 180,
+        "assets": 180000000000000000000,
         "liabilities": 0,
-        "equity": 180
+        "equity": 180000000000000000000
       },
       "changedFromAI": false
     },
@@ -1009,11 +1010,11 @@
       "independentChallenge": "The contract records acceptance; collection is incomplete but does not defer delivered revenue.",
       "studentReasoning": "Recognise revenue and a €58,000 receivable.",
       "statementEffect": {
-        "profit": 200,
+        "profit": 200000000000000000000,
         "cash": 0,
-        "assets": 58,
+        "assets": 58000000000000000000,
         "liabilities": 0,
-        "equity": 200
+        "equity": 200000000000000000000
       },
       "changedFromAI": false
     },
@@ -1032,11 +1033,11 @@
       "independentChallenge": "Customer acceptance confirms the event was completed.",
       "studentReasoning": "Recognise revenue with a €30,000 receivable after the matched receipt.",
       "statementEffect": {
-        "profit": 100,
+        "profit": 100000000000000000000,
         "cash": 0,
-        "assets": 30,
+        "assets": 30000000000000000000,
         "liabilities": 0,
-        "equity": 100
+        "equity": 100000000000000000000
       },
       "changedFromAI": false
     },
@@ -1055,11 +1056,11 @@
       "independentChallenge": "Delivery and customer acceptance are documented.",
       "studentReasoning": "Recognise revenue and retain the €25,000 unpaid balance in receivables.",
       "statementEffect": {
-        "profit": 120,
+        "profit": 120000000000000000000,
         "cash": 0,
-        "assets": 25,
+        "assets": 25000000000000000000,
         "liabilities": 0,
-        "equity": 120
+        "equity": 120000000000000000000
       },
       "changedFromAI": false
     },
@@ -1078,11 +1079,11 @@
       "independentChallenge": "Both named events are scheduled after the reporting date.",
       "studentReasoning": "No performance obligation was satisfied at 31 August.",
       "statementEffect": {
-        "profit": -90,
+        "profit": -90000000000000000000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 90,
-        "equity": -90
+        "liabilities": 90000000000000000000,
+        "equity": -90000000000000000000
       },
       "changedFromAI": false
     },
@@ -1124,11 +1125,11 @@
       "independentChallenge": "Liquidator notice received after period-end confirms 31 August insolvency.",
       "studentReasoning": "Use the specific loss rather than a general percentage allowance.",
       "statementEffect": {
-        "profit": -18,
+        "profit": -18000000000000000000,
         "cash": 0,
-        "assets": -18,
+        "assets": -18000000000000000000,
         "liabilities": 0,
-        "equity": -18
+        "equity": -18000000000000000000
       },
       "changedFromAI": false
     },
@@ -1137,23 +1138,23 @@
       "category": "estimation",
       "reviewTier": "material_judgment",
       "question": "Estimate Damaged inventory write-off and document the basis.",
-      "answer": "Recognise €24,000 total damaged-stock loss: €22,000 inventory write-down plus €2,000 disposal provision.",
+      "answer": "Recognise a €22,000 damaged-stock write-down. The separate €2,000 disposal quote is conditional and is not recognised unless a present obligation is evidenced.",
       "evidence": [
         "E05",
         "E11"
       ],
       "confidence": "high",
       "aiProposal": "Recognise €24,000 total damaged-stock loss: €22,000 inventory write-down plus €2,000 disposal provision.",
-      "independentChallenge": "Stock was unsaleable and an independent quote identified removal cost.",
-      "studentReasoning": "The full carrying amount is unrecoverable and disposal is probable.",
+      "independentChallenge": "The warehouse and independent assessment establish that the stock has no saleable value. They establish an expected removal cost, but do not establish a present obligation for that cost.",
+      "studentReasoning": "The full €22,000 carrying amount is unrecoverable. No present legal, contractual or constructive obligation at 31 August was evidenced. The €2,000 independent disposal quote is therefore a conditional scenario only, not a provision in the primary statements.",
       "statementEffect": {
-        "profit": -24,
+        "profit": -22000,
         "cash": 0,
-        "assets": -22,
-        "liabilities": 2,
-        "equity": -24
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
       },
-      "changedFromAI": false
+      "changedFromAI": true
     },
     {
       "id": "D073",
@@ -1170,11 +1171,11 @@
       "independentChallenge": "Counsel's 31 August advice establishes probability and a reliable best estimate.",
       "studentReasoning": "This is an adjusting liability, not a post-period new event.",
       "statementEffect": {
-        "profit": -25,
+        "profit": -25000000000000000000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 25,
-        "equity": -25
+        "liabilities": 25000000000000000000,
+        "equity": -25000000000000000000
       },
       "changedFromAI": false
     },
@@ -1194,11 +1195,11 @@
       "independentChallenge": "Opening accumulated depreciation is €45,000 and the asset schedule supplies a period estimate of €24,000.",
       "studentReasoning": "The charge is non-cash and produces €69,000 closing accumulated depreciation.",
       "statementEffect": {
-        "profit": -24,
+        "profit": -24000000000000000000,
         "cash": 0,
-        "assets": -24,
+        "assets": -24000000000000000000,
         "liabilities": 0,
-        "equity": -24
+        "equity": -24000000000000000000
       },
       "changedFromAI": false
     },
@@ -1215,11 +1216,11 @@
       "confidence": "medium",
       "aiProposal": "Use €112,000 book closing inventory: €80,000 opening + €459,000 purchases - €405,000 consumption - €22,000 write-down.",
       "independentChallenge": "This roll-forward is internally calculable, but physical good stock is €121,000, leaving a €9,000 unresolved discrepancy.",
-      "studentReasoning": "Use the evidence-based book roll-forward for the statements and disclose the €9,000 count discrepancy.",
+      "studentReasoning": "€112,000 is the closing inventory balance produced by the roll-forward, not an additional asset movement. The decision confirms the closing balance and discloses the separate €9,000 count discrepancy.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
-        "assets": 112,
+        "assets": 0,
         "liabilities": 0,
         "equity": 0
       },
@@ -1392,7 +1393,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Net profit and document the basis.",
-      "answer": "Corrected net profit is €63,000 after all evidence-based adjustments and €12,000 finance cost.",
+      "answer": "Corrected net profit is €65,000 on the no-disposal-provision primary basis, after all evidence-based adjustments and €12,000 finance cost.",
       "evidence": [
         "E01",
         "E02",
@@ -1424,14 +1425,14 @@
       ],
       "confidence": "medium",
       "aiProposal": "Approve corrected accounts before any valuation or earn-out decision.",
-      "independentChallenge": "Corrected profit (€63,000) is €249,000 below management's claimed €312,000 and cash is €60,000, not €186,000.",
-      "studentReasoning": "Valuation should use reconciled statements, disclosed uncertainty and board-approved adjustments.",
+      "independentChallenge": "Corrected profit on the no-disposal-provision basis is €65,000, €247,000 below management’s claimed €312,000; cash is €60,000, not €186,000.",
+      "studentReasoning": "Valuation and earn-out work must use reconciled primary statements. The €2,000 disposal quote is disclosed as a conditional scenario rather than recognised without evidence of a present obligation.",
       "statementEffect": {
-        "profit": -249,
+        "profit": -247000,
         "cash": 0,
-        "assets": -45,
+        "assets": -45000,
         "liabilities": 0,
-        "equity": -249
+        "equity": -247000
       },
       "changedFromAI": false
     },
@@ -1492,7 +1493,7 @@
       "category": "board_decision",
       "reviewTier": "operational",
       "question": "Dispose of damaged stock",
-      "answer": "Approve disposal of damaged stock and recognise the €2,000 disposal obligation.",
+      "answer": "Approve disposal of damaged stock. Recognise the removal cost only when a present legal, contractual or constructive obligation is evidenced.",
       "evidence": [
         "E01",
         "E02",
@@ -1552,14 +1553,14 @@
       ],
       "confidence": "medium",
       "aiProposal": "Do not use claimed management profit of €312,000 for earn-out.",
-      "independentChallenge": "Management included September deposits and loan proceeds as income and omitted multiple losses and provisions.",
-      "studentReasoning": "Use corrected €63,000 profit only after board approval; management profit is unreliable.",
+      "independentChallenge": "Corrected profit on the no-disposal-provision basis is €65,000, €247,000 below management’s claimed €312,000; cash is €60,000, not €186,000.",
+      "studentReasoning": "Valuation and earn-out work must use reconciled primary statements. The €2,000 disposal quote is disclosed as a conditional scenario rather than recognised without evidence of a present obligation.",
       "statementEffect": {
-        "profit": -249,
+        "profit": -247000,
         "cash": 0,
-        "assets": -45,
+        "assets": -45000,
         "liabilities": 0,
-        "equity": -249
+        "equity": -247000
       },
       "changedFromAI": false
     }
@@ -1597,7 +1598,7 @@
       "utilities": 12000,
       "repairs": 10000,
       "legalProvision": 25000,
-      "disposalProvision": 2000
+      "disposalProvision": 0
     },
     "ppeAndDepreciation": {
       "openingCost": 180000,
@@ -1619,9 +1620,9 @@
     },
     "equityAndDistributions": {
       "openingEquity": 170000,
-      "profit": 63000,
+      "profit": 65000,
       "ownerDistributions": 110000,
-      "closingEquity": 123000
+      "closingEquity": 125000
     }
   },
   "statements": {
@@ -1641,10 +1642,10 @@
       "depreciation": 24000,
       "badDebtExpense": 18000,
       "legalProvision": 25000,
-      "disposalProvision": 2000,
-      "operatingProfit": 75000,
+      "disposalProvision": 0,
+      "operatingProfit": 77000,
       "financeCost": 12000,
-      "netProfit": 63000
+      "netProfit": 65000
     },
     "cashFlow": {
       "openingCash": 80000,
@@ -1675,16 +1676,16 @@
       "bankLoan": 131000,
       "contractLiabilities": 90000,
       "legalProvision": 25000,
-      "disposalProvision": 2000,
-      "totalLiabilities": 408000,
-      "equity": 123000,
+      "disposalProvision": 0,
+      "totalLiabilities": 406000,
+      "equity": 125000,
       "totalLiabilitiesAndEquity": 531000
     }
   },
   "reconciliations": [
     {
       "name": "Balance sheet",
-      "calculation": "€531,000 assets = €408,000 liabilities + €123,000 equity",
+      "calculation": "€531,000 assets = €406,000 liabilities + €125,000 equity",
       "difference": 0
     },
     {
@@ -1709,7 +1710,7 @@
     },
     {
       "name": "Equity",
-      "calculation": "€170,000 opening + €63,000 profit - €110,000 distributions = €123,000",
+      "calculation": "€170,000 opening + €65,000 profit - €110,000 distributions = €125,000",
       "difference": 0
     }
   ],
@@ -1720,9 +1721,9 @@
       "treatment": "Statements use the €112,000 book roll-forward. The €121,000 good-stock count exceeds it by €9,000; investigate before relying on a final inventory control conclusion."
     },
     {
-      "issue": "Disposal cost",
+      "issue": "Disposal cost — conditional scenario",
       "amount": 2000,
-      "treatment": "Provision uses the independent quote; actual removal cost may differ."
+      "treatment": "No present legal, contractual or constructive obligation at 31 August was evidenced. No €2,000 provision is recognised: primary statements show €65,000 profit, €406,000 liabilities and €125,000 equity. If a present obligation is evidenced, recognise €2,000 expense and provision: profit would be €63,000, liabilities €408,000 and equity €123,000; cash would remain unchanged until payment."
     },
     {
       "issue": "Former employee claim",
@@ -1736,15 +1737,16 @@
     }
   ],
   "boardRecommendation": {
-    "recommendation": "Approve corrected accounts before valuation. Do not use management's €312,000 profit claim for earn-out.",
-    "basis": "Corrected profit is €63,000; cash is €60,000; €90,000 of deposits are liabilities; owner distributions total €110,000; material provisions and losses were omitted by management.",
+    "recommendation": "Approve the corrected no-provision primary accounts before valuation. Do not use management’s €312,000 profit claim for earn-out.",
+    "basis": "Corrected profit is €65,000; cash is €60,000; €90,000 of deposits are liabilities; owner distributions total €110,000. The €2,000 disposal quote is a disclosed conditional scenario, not a provision, because no present obligation was evidenced at 31 August.",
     "actions": [
       "Freeze owner-card access",
       "Move September deposits to contract liabilities",
       "Start a 13-week weekly cash forecast",
       "Investigate override and evidence duplication",
       "Resolve the €9,000 inventory discrepancy",
-      "Renegotiate supplier terms"
+      "Renegotiate supplier terms",
+      "Obtain evidence of a present disposal obligation before recognising any €2,000 disposal provision"
     ]
   }
 }
