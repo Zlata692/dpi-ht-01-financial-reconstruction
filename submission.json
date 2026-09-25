@@ -558,13 +558,15 @@
       "independentChallenge": "Cash receipt alone does not create August revenue; both contracts show September delivery.",
       "studentReasoning": "Delivery had not occurred by 31 August, so the deposits remain liabilities.",
       "statementEffect": {
-        "profit": -90000000000000000000,
+        "profit": -90000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 90000000000000000000,
-        "equity": -90000000000000000000
+        "liabilities": 90000,
+        "equity": -90000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D042",
@@ -580,15 +582,17 @@
       "confidence": "high",
       "aiProposal": "Recognise the €50,000 Baltic Bank advance as borrowing.",
       "independentChallenge": "The signed agreement requires repayment, so management's 'strategic income' label is unsupported.",
-      "studentReasoning": "Bank and agreement evidence establish a financial liability, not income.",
+      "studentReasoning": "Management treated the €50,000 repayable Baltic Bank advance as income. The correction reverses €50,000 revenue and recognises a €50,000 loan liability; the cash receipt was already recorded, so cash and total assets do not change in this correcting entry.",
       "statementEffect": {
-        "profit": 0,
+        "profit": -50000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 50000000000000000000,
-        "equity": 0
+        "liabilities": 50000,
+        "equity": -50000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D043",
@@ -603,15 +607,17 @@
       "confidence": "high",
       "aiProposal": "Capitalise Pack-O-Matic 9000 at €60,000.",
       "independentChallenge": "It was installed and available for use; no evidence supports an expense classification.",
-      "studentReasoning": "The €60,000 machine is PPE because it was installed and available for use. The purchase reduces cash by €60,000 and increases PPE by €60,000, so total assets do not change on purchase; depreciation is recorded separately.",
+      "studentReasoning": "Management recorded the €60,000 cash purchase as an expense. The correction reverses that expense and capitalises PPE, increasing profit, total assets and equity by €60,000; the original cash payment was already recorded.",
       "statementEffect": {
-        "profit": 0,
-        "cash": -60000,
-        "assets": 0,
+        "profit": 60000,
+        "cash": 0,
+        "assets": 60000,
         "liabilities": 0,
-        "equity": 0
+        "equity": 60000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D044",
@@ -626,15 +632,17 @@
       "confidence": "high",
       "aiProposal": "Capitalise the Regret Photo Booth at €20,000.",
       "independentChallenge": "It is a reusable asset available for use, not a one-period marketing service.",
-      "studentReasoning": "The €20,000 photo booth is reusable PPE. The purchase reduces cash by €20,000 and increases PPE by €20,000, so total assets do not change on purchase; depreciation is recorded separately.",
+      "studentReasoning": "Management recorded the €20,000 cash purchase as an expense. The correction reverses that expense and capitalises PPE, increasing profit, total assets and equity by €20,000; the original cash payment was already recorded.",
       "statementEffect": {
-        "profit": 0,
-        "cash": -20000,
-        "assets": 0,
+        "profit": 20000,
+        "cash": 0,
+        "assets": 20000,
         "liabilities": 0,
-        "equity": 0
+        "equity": 20000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D045",
@@ -651,13 +659,15 @@
       "independentChallenge": "The invoice says it restored normal output and did not extend life or capacity.",
       "studentReasoning": "The expenditure is maintenance, so it does not increase PPE cost.",
       "statementEffect": {
-        "profit": -10000000000000000000,
+        "profit": -10000,
         "cash": 0,
-        "assets": -10000000000000000000,
+        "assets": -10000,
         "liabilities": 0,
-        "equity": -10000000000000000000
+        "equity": -10000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D046",
@@ -673,15 +683,17 @@
       "confidence": "high",
       "aiProposal": "Treat the €70,000 villa deposit as owner distribution.",
       "independentChallenge": "Personal title and no customer meeting directly rebut marketing and payroll labels.",
-      "studentReasoning": "The €70,000 was paid from company cash for the owner’s personal villa reservation. It is a distribution: profit is unchanged, while cash and total assets fall by €70,000 and equity falls by €70,000.",
+      "studentReasoning": "Management treated the €70,000 personal villa payment as an expense. The correction increases profit by €70,000 and records an equal owner distribution, so total equity and cash do not change versus management’s already-recorded payment.",
       "statementEffect": {
-        "profit": 0,
-        "cash": -70000,
-        "assets": -70000,
+        "profit": 70000,
+        "cash": 0,
+        "assets": 0,
         "liabilities": 0,
-        "equity": -70000
+        "equity": 0
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D047",
@@ -697,15 +709,17 @@
       "confidence": "high",
       "aiProposal": "Treat €40,000 owner-card spending as owner distribution.",
       "independentChallenge": "No employment approval or business purpose was evidenced.",
-      "studentReasoning": "The €40,000 owner-card spending was paid from company cash without a business purpose. It is a distribution: profit is unchanged, while cash and total assets fall by €40,000 and equity falls by €40,000.",
+      "studentReasoning": "Management treated the €40,000 owner-card spending as an expense. The correction increases profit by €40,000 and records an equal owner distribution, so total equity and cash do not change versus management’s already-recorded payment.",
       "statementEffect": {
-        "profit": 0,
-        "cash": -40000,
-        "assets": -40000,
+        "profit": 40000,
+        "cash": 0,
+        "assets": 0,
         "liabilities": 0,
-        "equity": -40000
+        "equity": 0
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D048",
@@ -723,13 +737,15 @@
       "independentChallenge": "Warehouse evidence specifically ties the amount to valid delivered sales.",
       "studentReasoning": "Match materials consumption to delivered revenue, not cash dates.",
       "statementEffect": {
-        "profit": -405000000000000000000,
+        "profit": -405000,
         "cash": 0,
-        "assets": -405000000000000000000,
+        "assets": -405000,
         "liabilities": 0,
-        "equity": -405000000000000000000
+        "equity": -405000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D049",
@@ -744,15 +760,17 @@
       "confidence": "high",
       "aiProposal": "Classify €80,000 event-delivery staff payroll as direct cost of sales.",
       "independentChallenge": "Those employees work directly on paid events, unlike commercial and office staff.",
-      "studentReasoning": "Direct event labour is included in COGS.",
+      "studentReasoning": "This is the original €80,000 event-staff payroll transaction: direct cost of sales increases and cash/total assets decrease by €80,000. It is a presentation classification within payroll, not an additional liability.",
       "statementEffect": {
-        "profit": -80000000000000000000,
-        "cash": 0,
-        "assets": 0,
+        "profit": -80000,
+        "cash": -80000,
+        "assets": -80000,
         "liabilities": 0,
-        "equity": -80000000000000000000
+        "equity": -80000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Original transaction",
+      "effectBasis": "Original transaction — the full underlying event. Assets include all asset components; Cash is separately shown as an included component of total assets."
     },
     {
       "id": "D050",
@@ -846,13 +864,15 @@
       "independentChallenge": "The independent schedule states €24,000 and both additions were available for use in May.",
       "studentReasoning": "Depreciation reduces profit, PPE carrying amount and equity without cash impact.",
       "statementEffect": {
-        "profit": -24000000000000000000,
+        "profit": -24000,
         "cash": 0,
-        "assets": -24000000000000000000,
+        "assets": -24000,
         "liabilities": 0,
-        "equity": -24000000000000000000
+        "equity": -24000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D057",
@@ -869,13 +889,15 @@
       "independentChallenge": "Post-period liquidation evidence confirms an existing 31 August credit-loss condition.",
       "studentReasoning": "Reduce receivables to recoverable value and charge the loss to profit.",
       "statementEffect": {
-        "profit": -18000000000000000000,
+        "profit": -18000,
         "cash": 0,
-        "assets": -18000000000000000000,
+        "assets": -18000,
         "liabilities": 0,
-        "equity": -18000000000000000000
+        "equity": -18000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D058",
@@ -898,7 +920,9 @@
         "liabilities": 0,
         "equity": -22000
       },
-      "changedFromAI": true
+      "changedFromAI": true,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D059",
@@ -915,13 +939,15 @@
       "independentChallenge": "External counsel considered the employee claim probable and supplied a best estimate at reporting date.",
       "studentReasoning": "Recognise expense and provision; disclose the €20,000-€30,000 range.",
       "statementEffect": {
-        "profit": -25000000000000000000,
+        "profit": -25000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 25000000000000000000,
-        "equity": -25000000000000000000
+        "liabilities": 25000,
+        "equity": -25000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D060",
@@ -985,15 +1011,17 @@
       "confidence": "high",
       "aiProposal": "Recognise €180,000 NorthStar revenue on 12 February acceptance.",
       "independentChallenge": "Signed acceptance and matching bank receipt support delivery and consideration.",
-      "studentReasoning": "Performance was complete in the reporting period.",
+      "studentReasoning": "This is the original completed NorthStar transaction: €180,000 revenue, matched €180,000 cash receipt and €180,000 increase in total assets.",
       "statementEffect": {
-        "profit": 180000000000000000000,
-        "cash": 0,
-        "assets": 180000000000000000000,
+        "profit": 180000,
+        "cash": 180000,
+        "assets": 180000,
         "liabilities": 0,
-        "equity": 180000000000000000000
+        "equity": 180000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Original transaction",
+      "effectBasis": "Original transaction — the full underlying event. Assets include all asset components; Cash is separately shown as an included component of total assets."
     },
     {
       "id": "D065",
@@ -1008,15 +1036,17 @@
       "confidence": "high",
       "aiProposal": "Recognise €200,000 Freedom revenue on 18 March acceptance.",
       "independentChallenge": "The contract records acceptance; collection is incomplete but does not defer delivered revenue.",
-      "studentReasoning": "Recognise revenue and a €58,000 receivable.",
+      "studentReasoning": "This is the original completed Freedom transaction: €200,000 revenue, comprising €142,000 cash collected and €58,000 trade receivable. Total assets therefore increase by the full €200,000.",
       "statementEffect": {
-        "profit": 200000000000000000000,
-        "cash": 0,
-        "assets": 58000000000000000000,
+        "profit": 200000,
+        "cash": 142000,
+        "assets": 200000,
         "liabilities": 0,
-        "equity": 200000000000000000000
+        "equity": 200000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Original transaction",
+      "effectBasis": "Original transaction — the full underlying event. Assets include all asset components; Cash is separately shown as an included component of total assets."
     },
     {
       "id": "D066",
@@ -1031,15 +1061,17 @@
       "confidence": "high",
       "aiProposal": "Recognise €100,000 Phoenix event revenue on 29 April completion.",
       "independentChallenge": "Customer acceptance confirms the event was completed.",
-      "studentReasoning": "Recognise revenue with a €30,000 receivable after the matched receipt.",
+      "studentReasoning": "This is the original completed Phoenix transaction: €100,000 revenue, comprising €70,000 cash collected and €30,000 trade receivable. Total assets therefore increase by the full €100,000.",
       "statementEffect": {
-        "profit": 100000000000000000000,
-        "cash": 0,
-        "assets": 30000000000000000000,
+        "profit": 100000,
+        "cash": 70000,
+        "assets": 100000,
         "liabilities": 0,
-        "equity": 100000000000000000000
+        "equity": 100000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Original transaction",
+      "effectBasis": "Original transaction — the full underlying event. Assets include all asset components; Cash is separately shown as an included component of total assets."
     },
     {
       "id": "D067",
@@ -1054,15 +1086,17 @@
       "confidence": "high",
       "aiProposal": "Recognise €120,000 Liberty revenue on 20 June delivery.",
       "independentChallenge": "Delivery and customer acceptance are documented.",
-      "studentReasoning": "Recognise revenue and retain the €25,000 unpaid balance in receivables.",
+      "studentReasoning": "This is the original delivered Liberty transaction: €120,000 revenue, comprising €95,000 cash collected and €25,000 trade receivable. Total assets therefore increase by the full €120,000.",
       "statementEffect": {
-        "profit": 120000000000000000000,
-        "cash": 0,
-        "assets": 25000000000000000000,
+        "profit": 120000,
+        "cash": 95000,
+        "assets": 120000,
         "liabilities": 0,
-        "equity": 120000000000000000000
+        "equity": 120000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Original transaction",
+      "effectBasis": "Original transaction — the full underlying event. Assets include all asset components; Cash is separately shown as an included component of total assets."
     },
     {
       "id": "D068",
@@ -1079,13 +1113,15 @@
       "independentChallenge": "Both named events are scheduled after the reporting date.",
       "studentReasoning": "No performance obligation was satisfied at 31 August.",
       "statementEffect": {
-        "profit": -90000000000000000000,
+        "profit": -90000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 90000000000000000000,
-        "equity": -90000000000000000000
+        "liabilities": 90000,
+        "equity": -90000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D069",
@@ -1125,13 +1161,15 @@
       "independentChallenge": "Liquidator notice received after period-end confirms 31 August insolvency.",
       "studentReasoning": "Use the specific loss rather than a general percentage allowance.",
       "statementEffect": {
-        "profit": -18000000000000000000,
+        "profit": -18000,
         "cash": 0,
-        "assets": -18000000000000000000,
+        "assets": -18000,
         "liabilities": 0,
-        "equity": -18000000000000000000
+        "equity": -18000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D072",
@@ -1154,7 +1192,9 @@
         "liabilities": 0,
         "equity": -22000
       },
-      "changedFromAI": true
+      "changedFromAI": true,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D073",
@@ -1171,13 +1211,15 @@
       "independentChallenge": "Counsel's 31 August advice establishes probability and a reliable best estimate.",
       "studentReasoning": "This is an adjusting liability, not a post-period new event.",
       "statementEffect": {
-        "profit": -25000000000000000000,
+        "profit": -25000,
         "cash": 0,
         "assets": 0,
-        "liabilities": 25000000000000000000,
-        "equity": -25000000000000000000
+        "liabilities": 25000,
+        "equity": -25000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D074",
@@ -1195,13 +1237,15 @@
       "independentChallenge": "Opening accumulated depreciation is €45,000 and the asset schedule supplies a period estimate of €24,000.",
       "studentReasoning": "The charge is non-cash and produces €69,000 closing accumulated depreciation.",
       "statementEffect": {
-        "profit": -24000000000000000000,
+        "profit": -24000,
         "cash": 0,
-        "assets": -24000000000000000000,
+        "assets": -24000,
         "liabilities": 0,
-        "equity": -24000000000000000000
+        "equity": -24000
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D075",
@@ -1224,7 +1268,9 @@
         "liabilities": 0,
         "equity": 0
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Correction",
+      "effectBasis": "Correction — incremental adjustment to management’s uncorrected presentation at 31 August 2026. Cash is zero where the underlying cash movement was already recorded."
     },
     {
       "id": "D076",
@@ -1429,12 +1475,14 @@
       "studentReasoning": "Valuation and earn-out work must use reconciled primary statements. The €2,000 disposal quote is disclosed as a conditional scenario rather than recognised without evidence of a present obligation.",
       "statementEffect": {
         "profit": -247000,
-        "cash": 0,
-        "assets": -45000,
+        "cash": -126000,
+        "assets": 0,
         "liabilities": 0,
-        "equity": -247000
+        "equity": 0
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Comparison",
+      "effectBasis": "Comparison — corrected no-provision accounts compared with management’s headline claim. This is not a journal entry."
     },
     {
       "id": "D092",
@@ -1557,12 +1605,14 @@
       "studentReasoning": "Valuation and earn-out work must use reconciled primary statements. The €2,000 disposal quote is disclosed as a conditional scenario rather than recognised without evidence of a present obligation.",
       "statementEffect": {
         "profit": -247000,
-        "cash": 0,
-        "assets": -45000,
+        "cash": -126000,
+        "assets": 0,
         "liabilities": 0,
-        "equity": -247000
+        "equity": 0
       },
-      "changedFromAI": false
+      "changedFromAI": false,
+      "effectType": "Comparison",
+      "effectBasis": "Comparison — corrected no-provision accounts compared with management’s headline claim. This is not a journal entry."
     }
   ],
   "schedules": {
